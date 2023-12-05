@@ -1,0 +1,32 @@
+:root {
+  --background-color: #1e2237;
+  --primary-color: #ffffff;
+  --secondary-color: #866feb;
+  --danger-color: #ff0000;
+  --success-color: #008000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.App {
+  height: 100vh;
+  position: relative;
+  padding: 2rem 5rem;
+}
+
+.actions {
+  cursor: pointer;
+}
+
+svg:hover {
+  color: var(--secondary-color);
+}

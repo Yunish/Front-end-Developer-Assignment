@@ -1,0 +1,30 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal_content {
+  position: relative;
+  height: 500px;
+  width: 60%;
+  background-color: var(--background-color);
+  border-radius: 0.5rem;
+  padding: 2rem 5rem;
+}
+
+.modal_close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--danger-color);
+}

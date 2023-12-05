@@ -1,0 +1,35 @@
+.overview_chart {
+  padding: 1rem;
+}
+
+.overview_chart > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.overview_chart > ul > li {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.active_users > span {
+  font-weight: 800;
+  color: var(--success-color);
+}
+
+.inactive_users > span {
+  font-weight: 800;
+  color: var(--danger-color);
+}
+
+.users > span {
+  color: var(--background-color);
+}

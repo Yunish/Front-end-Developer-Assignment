@@ -1,0 +1,37 @@
+.overview {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  color: var(--background-color);
+  height: 350px;
+  width: 30%;
+  min-width: 350px;
+  margin: 1rem 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_title {
+  color: var(--background-color);
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
